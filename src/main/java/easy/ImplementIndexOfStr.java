@@ -1,6 +1,6 @@
 package easy;
 
-public class ImplementStr {
+public class ImplementIndexOfStr {
 
 //    https://leetcode.com/problems/implement-strstr/
 
