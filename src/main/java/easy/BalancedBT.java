@@ -27,7 +27,9 @@ public class BalancedBT {
         int left = height(root.left);
         int right = height(root.right);
         if (Math.abs(left - right) > 1) return false;
-        else return true;
+        boolean leftBalanced = isBalanced(root.left);
+        boolean rightBalanced = isBalanced(root.right);
+        return leftBalanced && rightBalanced;
     }
 
     private int height(TreeNode root) {
